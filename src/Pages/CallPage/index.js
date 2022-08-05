@@ -18,9 +18,13 @@ const styles = StyleSheet.create({
         backgroundColor: '#7a4769',
     },
     cameraPreview: {
-        flex: 1,
-        alignItems: 'center',
-        paddingTop: 80
+        width: 110,
+        height: 160,
+        backgroundColor: 'yellow',
+        borderRadius: 10,
+        position: 'absolute',
+        top: 100,
+        right: 20,
     },
 });
 
