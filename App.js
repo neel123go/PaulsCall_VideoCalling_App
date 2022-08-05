@@ -1,15 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import ContactsPage from './src/Pages/ContactsPage';
-import { SafeAreaView } from 'react-native';
+import CallingPage from './src/Pages/CallingPage';
 
 const App = () => {
   return (
-    <SafeAreaView>
+    <>
       <StatusBar barStyle={'dark-content'} />
 
-      <ContactsPage />
+      <CallingPage />
 
-    </SafeAreaView>
+    </>
   );
 }
 

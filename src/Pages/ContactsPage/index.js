@@ -25,7 +25,7 @@ const ContactsPage = () => {
 
 const styles = StyleSheet.create({
     page: {
-        paddingVertical: 30,
+        paddingTop: 60,
         paddingHorizontal: 20
     },
     contactName: {
